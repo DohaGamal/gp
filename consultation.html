@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>طلب استشارة</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media1.css" />
+  </head>
+  <body dir="rtl" style="background-color: #fafafa">
+    <div class="contanier-consultation">
+      <nav class="navbar navbar-expand-lg" style="background-color: #ffffff">
+        <div class="container-fluid">
+          <img src="img/logo.png" alt="" class="bNavlogo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse navbar-Consultee"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-lg-auto mb-2 mb-lg-0">
+              <li class="nav-itm">
+                <a
+                  class="nav-link active link-hover"
+                  aria-current="page"
+                  href="#"
+                  >الصفة الرئيسية</a
+                >
+              </li>
+              <li class="nav-itm">
+                <a
+                  class="nav-link active link-hover"
+                  aria-current="page"
+                  href="#"
+                  >التصنيف</a
+                >
+              </li>
+
+              <li class="nav-itm">
+                <a
+                  class="nav-link active link-hover"
+                  aria-current="page"
+                  href="#"
+                  >المستشارين</a
+                >
+                <!-- <div class="blinkNav"></div> -->
+              </li>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control bSearchNav me-2 navbarCons"
+                  type="search"
+                  placeholder="عن ماذا تبحث؟"
+                  aria-label="Search"
+                />
+                <img src="img/Path 580.png" alt="" class="barrowNav" />
+              </form>
+            </ul>
+
+            <!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form> -->
+            <div class="bNavicons">
+              <ul
+                class="navbar-nav mb-2 mb-lg-0 liConsultant"
+                style="align-items: center"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    <div class="profile">
+                      <img
+                        src="img/notification icon.svg"
+                        alt="nafication"
+                        class="massg"
+                      />
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><div class="profile">
+                      <img
+                        src="img/Group 1035.png"
+                        alt="message"
+                        class="massg"
+                      /></div
+                  ></a>
+                </li>
+                <img src="img/Divider.png" class="hr-profile" alt="" />
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="img/Group 41.png" alt="" class="img-profile" />
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    style="transform: translateX(5.9375rem)"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><img
+                          src="img/Group 41.png"
+                          alt=""
+                          class="profile-pic-submenu" />
+                        <span class="name"
+                          >أحمد جمعة <span class="spase"> </span></span
+                      ></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><img src="img/Group 1051.svg" alt="" class="profil" />
+                        <span class="name-logo">
+                          الاعدادات <span class="spase"> </span></span
+                      ></a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><img src="img/Group 1050.svg" alt="" class="profil" />
+                        <span class="name-logo">تسجيل الخروج</span></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="body-consultion">
+        <h1 class="consultion-heder">طلب استشارة</h1>
+        <div class="DQuestions">
+        <div class="mb-3">
+          <label
+            for="exampleFormControlInput1"
+            class="form-label par-consultion"
+            >عنوان الاستشارة</label
+          >
+          <input
+            type="email"
+            class="form-consltaion"
+            id="exampleFormControlInput1"
+            placeholder=""
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label
+            for="exampleFormControlTextarea1"
+            class="form-label par-consultion"
+            >تفاصيل الاستشارة</label
+          >
+          <textarea
+            class="form-consltaion1"
+            id="exampleFormControlTextarea1"
+            rows="20"
+            minlength="50"
+            maxlength="100000"
+            required
+          ></textarea>
+        </div>
+        <div class="but-consultion col-12">
+          <button type="button" class="btn btn-primary button-next">
+        <a href="payment.html" class="link-next"> التالى </a>
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Profile User -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

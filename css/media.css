@@ -1,0 +1,377 @@
+@media (max-width: 575.98px) {
+  /* Start Navbar */
+  .navbar-div img {
+    width: 150px;
+  }
+  .navbar-div li {
+    margin-left: 0;
+  }
+  .navbar-btn {
+    font-size: 0.8rem;
+  }
+  .callToAction2 {
+    margin-bottom: 20px;
+    font-family: Cairo-Regular;
+  }
+  .sample-container {
+    text-align: right;
+  }
+  /* End Navbar */
+  /* Start Main Section */
+
+  .far {
+    /* padding: 10px; */
+    margin-bottom: 3px;
+
+    padding: 6px 5px 4px 4px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+  }
+  .call {
+    margin-bottom: 3px;
+    background-color: #2980b9;
+    border-radius: 0.8em;
+    color: white;
+    border: none;
+    padding: 0.3em 2em;
+  }
+  .main-section .main-section-paragraph {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  .main-section {
+    background-image: linear-gradient(
+      to right,
+      white,
+      rgb(159 178 202),
+      #428dbf,
+      #2980b9
+    );
+  }
+  /* .main-section {
+    padding: 30px 0;
+    background-image: linear-gradient(
+      to right,
+      #2980b9,
+      #2980b9(241, 241, 241),
+      #428dbf,
+      #2980b9
+    );
+  } */
+  /* End Main Section */
+  /* Start Who-us Section */
+  .who-us-section {
+    padding: 20px 0;
+  }
+  .services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .sections-title p {
+    font-size: 16px;
+  }
+  .servicesimg {
+    width: 30%;
+  }
+  .sections-title p::before {
+    width: 30%;
+    left: -5px;
+  }
+  .sections-title p::after {
+    width: 30%;
+    right: -5px;
+  }
+  .who-us-section .how-us-pagrgraph {
+    text-align: center;
+    font-size: 16px;
+  }
+  .adv2 {
+    border-bottom: 2px solid white;
+  }
+  .adv1 {
+    border-bottom: 2px solid white;
+  }
+
+  .sample-container {
+    padding: 1em 1em 1em 1em;
+  }
+  .footer {
+    font-size: 0.4em;
+  }
+  .step-type-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17px;
+  }
+  .finallllogo {
+    align-items: flex-start;
+    align-items: right;
+  }
+  .text-under-logofooter {
+    margin-right: 0px;
+  }
+  .logofooterimg {
+    width: 30%;
+  }
+  /* End Who-us Section  */
+
+  /* Start our-services Section */
+
+  .our-services .services {
+    flex-direction: column;
+  }
+  .our-services .services .service-type {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .our-services .services .service-type img {
+    width: 100%;
+  }
+  .step-type {
+    padding-top: 20px;
+  }
+  .contact-container {
+    background-color: #f2f2f2;
+    color: #2980b9;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-size: 0.9em;
+    margin-bottom: 0;
+    padding: 2em;
+  }
+    .aimgside{
+      display: none;
+    }
+  /* padding: 2.3em 7em 1.1em 7em; */
+}
+/* End our-services Section */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Start Navbar */
+  .navbar-div img {
+    width: 150px;
+  }
+  .callToAction2 {
+    margin-bottom: 20px;
+    font-family: Cairo-Regular;
+  }
+  .steps-section {
+    text-align: center;
+    align-items: center;
+  }
+  .finallllogo {
+    align-items: flex-start;
+    align-items: right;
+  }
+  .navbar-div li {
+    margin-left: 0;
+  }
+  .navbar-btn {
+    font-size: 0.8rem;
+  }
+  .servicesimg {
+    width: 30%;
+  }
+  .main-section {
+    background-image: linear-gradient(
+      to right,
+      white,
+      rgb(159 178 202),
+      #428dbf,
+      #2980b9
+    );
+  }
+  /* End Navbar */
+  /* Start Main Section */
+  .main-section {
+    padding: 30px 0;
+  }
+  .main-section .main-section-paragraph {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  /* End Main Section */
+  /* Start Who-us Section */
+  .who-us-section {
+    padding: 20px 0;
+  }
+  .servicesimg {
+    width: 30%;
+  }
+  .sections-title p {
+    font-size: 16px;
+  }
+  .sections-title p::before {
+    width: 30%;
+    left: -5px;
+  }
+  .footer {
+    font-size: 0.6em;
+  }
+
+  .finallllogo {
+    align-items: flex-start;
+  }
+  .text-under-logofooter {
+    margin-right: 0px;
+  }
+  .logofooterimg {
+    width: 30%;
+  }
+  .step-type-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17px;
+  }
+  .sections-title p::after {
+    width: 30%;
+    right: -5px;
+  }
+  .who-us-section .how-us-pagrgraph {
+    text-align: center;
+    font-size: 16px;
+  }
+  .services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* End Who-us Section  */
+
+  /* Start our-services Section */
+
+  .our-services .services {
+    flex-direction: column;
+  }
+  .our-services .services .service-type {
+    width: 65%;
+    margin-bottom: 20px;
+  }
+  .our-services .services .service-type img {
+    width: 100%;
+  }
+  .adv2 {
+    border-left: none;
+  }
+  .adv1 {
+    border-left: none;
+  }
+  .step-type {
+    padding-top: 16px;
+  }
+  .contact-container {
+    background-color: #f2f2f2;
+    color: #2980b9;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    font-size: 0.9em;
+    margin-bottom: 0;
+    padding: 2em;
+  }
+            .aimgside {
+              display: none;
+            }
+  /* End our-services Section */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Start Navbar */
+  .navbar-div img {
+    width: 150px;
+  }
+  .navbar-div li {
+    margin-left: 0;
+  }
+  .servicesimg {
+    width: 30%;
+  }
+  .navbar-btn {
+    font-size: 0.8rem;
+  }
+  /* End Navbar */
+  /* Start Main Section */
+  .main-section {
+    padding: 30px 0;
+  }
+  .main-section .main-section-paragraph {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  /* End Main Section */
+  /* Start Who-us Section */
+  .who-us-section {
+    padding: 20px 0;
+  }
+  .sections-title p {
+    font-size: 16px;
+  }
+  .sections-title p::before {
+    width: 30%;
+    left: -5px;
+  }
+  .sections-title p::after {
+    width: 30%;
+    right: -5px;
+  }
+  .who-us-section .how-us-pagrgraph {
+    text-align: center;
+    font-size: 16px;
+  }
+  /* End Who-us Section  */
+
+  /* Start our-services Section */
+  .our-services .services .service-type {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .our-services .services .service-type img {
+    width: 100%;
+  }
+  /* End our-services Section */
+  .finallllogo {
+    display: block;
+    width: 54%;
+}
+  .contact-container {
+    background-color: #f2f2f2;
+    color: #2980b9;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    font-size: 0.9em;
+    margin-bottom: 0;
+    padding: 2em;
+  }
+  .text-under-logofooter {
+    /* color: black; */
+    /* font-family: cairo-Medium; */
+    margin-right: 1px;
+    /* margin-top: 13px; */
+    /* font-size: 12px; */
+}
+        .aimgside {
+          display: none;
+        }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 2000px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+@media (min-width: 1400px) {
+}
